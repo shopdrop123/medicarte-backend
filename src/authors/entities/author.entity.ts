@@ -4,17 +4,17 @@ import { ShopSocials } from '../../settings/entities/setting.entity';
 
 export class Author extends CoreEntity {
   bio?: string;
-  born?: string;
-  cover_image?: Attachment;
-  death?: string;
-  image?: Attachment;
-  is_approved?: boolean;
+  born?: any;
+  cover_image?: any;
+  death?: any;
+  image?: any;
+  is_approved?: boolean | number;
   languages?: string;
   name: string;
   products_count?: number;
   quote?: string;
   slug?: string;
-  socials?: ShopSocials;
+  socials?: any;
   language?: string;
   translated_languages?: string[];
 }
